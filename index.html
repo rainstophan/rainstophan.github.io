@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="generator" content="Hugo 0.89.4" />
+  <link rel="canonical" href="http://rainstophan.github.io/">
+
+  
+    
+      <meta name="description" content="A website for The Simpson.">
+    
+  
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" type="text/css" href="/css/paper.css">
+
+  
+  
+  <link rel="stylesheet" type="text/css" href="/css/custom.css">
+
+  
+  
+    
+  
+  <title>Simpson Family</title>
+</head>
+  <body>
+    <div class="container paper">
+      <nav class="border split-nav">
+  <div class="nav-brand">
+    <h3><a href="/">Simpson Family</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+    <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/group/">Group</a></li>
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+      <main>
+        
+
+<h1></h1>
+
+
+
+
+<div class="child-borders">
+  <div class="sm col ">
+    <div class="text-primary">
+  <h3 id="before-starting">Before starting&hellip;</h3>
+</div>
+<div class="text-secondary">
+  💡 One simple question for you
+</div>
+<p>Whether the Simpsons are realistically representing the typical (American) life?</p>
+<div class="text-secondary">
+  💭 Well, forget about it! Let&rsquo;s do it!
+</div>
+<p>1️⃣ Finding communities and compare the communities with each other.</p>
+<p>2️⃣ Compare the characters from different life stages (Children, Adults, Seniors).</p>
+<p>3️⃣ Find hidden groups in the network by grouping characters based on their personalities and not their relations.</p>
+<div class="text-secondary">
+  📹 Check the trailer
+</div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/ZMkTfs-wb0o" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+  </div>
+</div>
+
+
+
+
+
+<div class="child-borders">
+  <div class="sm col ">
+    <div class="text-success">
+  <h3 id="network-statistics-and-visualization">Network Statistics and Visualization</h3>
+</div>
+<h4 id="how-characters-connect-with-others-in-graph">💭How characters connect with others in graph?</h4>
+<p>👨‍👩‍👦Simpson Universe Graph
+<img src="/raw_network.png" alt="demo" class="img-responsive"></p>
+<p>🎨Well, put some make-ups for the graph then. Collor the dots based on their attributes.</p>
+<p>Life Phases (Seniors, Adults, Children)
+<img src="/child-adults-seniors-network.png" alt="demo" class="img-responsive"></p>
+<p>Genders (Male, Female)
+<img src="/men-women_network.png" alt="demo" class="img-responsive"></p>
+<p>Families (12 in Total)
+<img src="/family_network.png" alt="demo" class="img-responsive"></p>
+<p>💡The greatest connected component in the social network in the Simpsons Universe which consists of <strong>599</strong>nodes and <strong>3641</strong> edges.</p>
+
+  </div>
+</div>
+
+
+
+
+
+<div class="child-borders">
+  <div class="sm col ">
+    <div class="text-success">
+  <h3 id="centrality-analysis">Centrality Analysis</h3>
+</div>
+<h4 id="who-is-the-most-central-character-in-the-network">💭Who is the most central character in the network?</h4>
+<p><strong>1.Betweenness Centrality</strong></p>
+<p><em>For finding the individuals who influence the flow around a system.</em></p>
+<p>Betweenness Graph:
+<img src="/betweenness_network.png" alt="demo" class="img-responsive"></p>
+<p>👬Top ranking simpson characters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Betweenness Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homer Simpson</td>
+<td>0.18</td>
+</tr>
+<tr>
+<td>Bart Simpson</td>
+<td>0.13</td>
+</tr>
+<tr>
+<td>Lisa Simpson</td>
+<td>0.06</td>
+</tr>
+<tr>
+<td>Maggie Simpson</td>
+<td>0.06</td>
+</tr>
+<tr>
+<td>Ned Flanders</td>
+<td>0.06</td>
+</tr>
+<tr>
+<td>Marge Simpson</td>
+<td>0.06</td>
+</tr>
+<tr>
+<td>Cletus Spuckler</td>
+<td>0.06</td>
+</tr>
+<tr>
+<td>Charles Montgomery Burns</td>
+<td>0.04</td>
+</tr>
+<tr>
+<td>Krusty the Clown</td>
+<td>0.04</td>
+</tr>
+<tr>
+<td>Brandine Spuckler</td>
+<td>0.03</td>
+</tr>
+</tbody>
+</table>
+<p><strong>2.Closeness Centrality</strong></p>
+<p><em>For finding the individuals who are best placed to influence the entire network most quickly.</em></p>
+<p>Closeness Graph:
+<img src="/closeness_network.png" alt="demo" class="img-responsive"></p>
+<p>👬Top ranking simpson characters:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Closeness Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homer Simpson</td>
+<td>0.51</td>
+</tr>
+<tr>
+<td>Bart Simpson</td>
+<td>0.49</td>
+</tr>
+<tr>
+<td>Lisa Simpson</td>
+<td>0.48</td>
+</tr>
+<tr>
+<td>Marge Simpson</td>
+<td>0.47</td>
+</tr>
+<tr>
+<td>Maggie Simpson</td>
+<td>0.42</td>
+</tr>
+<tr>
+<td>Selma Bouvier</td>
+<td>0.42</td>
+</tr>
+<tr>
+<td>Ned Flanders</td>
+<td>0.42</td>
+</tr>
+<tr>
+<td>Moe Szyslak</td>
+<td>0.41</td>
+</tr>
+<tr>
+<td>Milhouse Van Houten</td>
+<td>0.41</td>
+</tr>
+<tr>
+<td>Patty Bouvier</td>
+<td>0.4</td>
+</tr>
+</tbody>
+</table>
+<p>💡As the analysis shows, all members in the Simpson family are very central characters in terms of both betweenness and closeness with the most central person being Homer Simpson in both measures. This is not surprising since the show is called &ldquo;The Simpsons&rdquo;.</p>
+
+  </div>
+</div>
+
+
+
+
+
+<div class="child-borders">
+  <div class="sm col ">
+    <div class="text-success">
+  <h3 id="community-analysis">Community Analysis</h3>
+</div>
+<h4 id="guess-how-many-communities-in-simpson-universe">💭Guess How many communities in Simpson Universe?</h4>
+<p>💡Anyway, we find 12 communities in the network through the Louvain algorithm.</p>
+<p>Check the graph of simpson communities below.
+<img src="/community_network.png" alt="demo" class="img-responsive"></p>
+<p>Continue with the word cloud picture for each community based on text from wiki page.
+<img src="/community_wordclouds.png" alt="demo" class="img-responsive"></p>
+<p>💡The figures above shows the most common words based on the TF-IDF as word clouds for each of the communities. Some of them are quite meaningful whereas some of them looks to be very similar. E.g. wordcloud (2,2), (3,1) and (1,3) seems to be very school related. And thus have mentions like school, Skinner (principal), Nelson (bully) and horror (I think we all could relate back in elementary school). Moreover, we have the wordclouds (4,1), (3,2) and (2,3) which all seems to represent the old people since it contains words like deceased, family, Abe (Homer&rsquo;s dad) herb (natural medicine?), and law (apperantly the law is important for the old people?).</p>
+
+  </div>
+</div>
+
+
+
+
+
+<div class="child-borders">
+  <div class="sm col ">
+    <div class="text-success">
+  <h3 id="life-phase-analysis">Life Phase Analysis</h3>
+</div>
+<h4 id="quick-through-the-different-stages-in-life-in-the-simpsons">💭Quick through the different stages in life in The Simpsons</h4>
+<img src="/child-adults-seniors_wordcloud.png" alt="demo" class="img-responsive">
+<p>💡As seen above, there are some differences between the most common words used for children, adults and seniors. Children are focused on school, class and friends, which are quite innoncent things. Then the adults talk about time (perhaps always in hurry?), horror (bills and work maybe?), job, and game. Lastly, the seniors are associated with the words great, law, deceased, family mr and file. Maybe the seniors like to be called with their pronoun, that maybe explains mr? The elderly maybe also focuses more on their family since they have nothing else to do? Overall, it seems that the differenes in the different life stages in the Simpsons very well translates to the real life where we the situtation is very similar.
+  </div>
+</div>
+
+
+
+
+
+<div class="child-borders">
+  <div class="sm col ">
+    <div class="text-success">
+  <h3 id="gender-analysis">Gender Analysis</h3>
+</div>
+<h4 id="check-some-differences-between-men-and-women-in-the-simpsons">💭Check some differences between men and women in The Simpsons</h4>
+<img src="/gender_wordclouds.png" alt="demo" class="img-responsive">
+<p>💡There seem to be no clear differences between men and women. Maybe the women are more associated with their hair and the school of their children, whereas the men tend to work more and be more focused on the time? If one has watched the series, then you would maybe have noticed that you mostly see the men working, which may explain these wordclouds.
+  </div>
+</div>
+
+
+
+
+
+<div class="child-borders">
+  <div class="sm col ">
+    <div class="text-success">
+  <h3 id="unsupervised-clustering">Unsupervised Clustering</h3>
+</div>
+<h4 id="make-some-fun-of-the-supplementary-transcript-data-we-will-try-to-use-unsupervised-learning-on-the-transcript-data-to-group-the-characters-based-on-their-choice-of-words-and-find-whether-there-are-some-personalities-that-are-very-similar-to-one-another-in-the-series">💭Make some fun of the supplementary transcript data. we will try to use unsupervised learning on the transcript data to group the characters based on their choice of words, and find whether there are some personalities that are very similar to one another in the series.</h4>
+<div class="text-secondary">
+  <ol>
+<li>We will determine the optimal number of clusters using the &lsquo;Elbow method&rsquo;.</li>
+</ol>
+</div>
+<img src="/elbowmethod_unsupervised_clustering.png" alt="demo" class="img-responsive">
+<p>📝 It seems that there are only between 2-4 clusters in the transcript data.</p>
+<div class="text-secondary">
+  <ol start="2">
+<li>Then group each character in its respective cluster and analyze the most frequent words in each cluster.</li>
+</ol>
+</div>
+<img src="/transcript_clustering_network.png" alt="demo" class="img-responsive">
+<p>📝 It seems that the network is grouped by how &ldquo;popular&rdquo; the characters are. Based on the figure above, all the bigger nodes, i.e. the nodes with a higher degree are grouped together in the blue group. The medium sized characters in the green group and and small characters in the orange group.The groups seems to be in the same size magnitude.</p>
+<div class="text-secondary">
+  <ol start="3">
+<li>Comparison between the most common words, both wiki pages and transcript data.</li>
+</ol>
+</div>
+<p>TF-IDF (On Wiki Pages)
+<img src="/transcript_clustering_html_wordclouds.png" alt="demo" class="img-responsive"></p>
+<p>TF-IDF (On Transcript Data)
+<img src="/transcript_clustering_transcript_wordclouds.png" alt="demo" class="img-responsive"></p>
+<p>😕 The wordclouds doesn&rsquo;t give us a lot of information and any new insight to the many different subgroups in the Simpsons universe. Stiil need future work on the TF-IDF measure implemention.</p>
+
+  </div>
+</div>
+
+
+
+
+  
+
+
+<div class="child-borders">
+  <div class="sm col border-dashed">
+    <h3 id="download-our-dataset">Download our dataset</h3>
+<ol>
+<li>Extracted Character Files from Wiki Page ❗</li>
+</ol>
+<p>👉<a href="/files.zip"><em>Download Here</em></a></p>
+<p>It contains informations axtracted, cleaned and stored for each character:</p>
+<ul>
+<li>names &amp; roles</li>
+<li>wiki description</li>
+<li>relations &amp; categories</li>
+</ul>
+<ol start="2">
+<li>Simpson Transcript Files from Kaggle (Supplementary):</li>
+</ol>
+<p>👉<a href="https://www.kaggle.com/pierremegret/dialogue-lines-of-the-simpsons"><em>Link to Dataset</em></a></p>
+<p>It is a dataset consisting of the diaglogue lines of many different simpson characters (not from everybody, however).</p>
+
+  </div>
+</div>
+
+
+
+
+  
+
+
+<div class="child-borders">
+  <div class="sm col border-dashed">
+    <h3 id="link-to-our-notebook">Link to our Notebook</h3>
+<p>Want to dig deeper? Check the link below!</p>
+<p>👉<a href="https://nbviewer.org/github/EdinMahmutovic/socialnetwork-project/blob/main/InitSimpsonsNetwork.ipynb?flush_chace=true"><em>Notebook Link</em></a></p>
+<p>In case of the website version problem, also,👉<a href="https://github.com/EdinMahmutovic/socialnetwork-project/blob/main/InitSimpsonsNetwork.ipynb"><em>Github Link</em></a></p>
+
+  </div>
+</div>
+
+<div class="alert alert-success">
+  <ul>
+<li><strong>Thank you for watching. The End.❤️</strong></li>
+</ul>
+
+</div>
+
+
+
+
+
+
+
+
+      </main>
+      
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-123456789-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+  </div>
+  </body>
+</html>

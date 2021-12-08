@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simpson Family</title>
+    <link>http://rainstophan.github.io/</link>
+    <description>Recent content on Simpson Family</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Dec 2021 20:54:55 +0100</lastBuildDate><atom:link href="http://rainstophan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Group</title>
+      <link>http://rainstophan.github.io/group/</link>
+      <pubDate>Mon, 06 Dec 2021 20:51:05 +0100</pubDate>
+      
+      <guid>http://rainstophan.github.io/group/</guid>
+      <description>&amp;ldquo;I&amp;rsquo;m Bart Simpson, Who the Hell are you? &amp;quot; ✌️Our group member:
+ EdinMahmutovic Yuting Han  </description>
+    </item>
+    
+    <item>
+      <title>Simpson</title>
+      <link>http://rainstophan.github.io/simpson/</link>
+      <pubDate>Mon, 06 Dec 2021 20:34:52 +0100</pubDate>
+      
+      <guid>http://rainstophan.github.io/simpson/</guid>
+      <description>This is simpson page!
+Dotted   Dashed Thick   Dotted Thick   Text primary  Text secondary  Text success  Text warning  Text danger  Text muted  Example badge 123  Example badge 123  Example badge 123  Example badge 123  Example badge 123  Conclusion 12345    </description>
+    </item>
+    
+  </channel>
+</rss>
